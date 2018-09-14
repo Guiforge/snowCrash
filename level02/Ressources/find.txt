@@ -1,0 +1,4 @@
+* open file level02.pcap
+* click on follow tcp
+* you can see passwd
+-> ft_waNDReL0L

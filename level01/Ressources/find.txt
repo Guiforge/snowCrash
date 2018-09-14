@@ -1,0 +1,6 @@
+* we can read /etc/passwd
+* in /etc/passwd there is hashed pass of flag01
+
+* download by scp /etc/passwd
+* brute force with john
+-> abcdefg
