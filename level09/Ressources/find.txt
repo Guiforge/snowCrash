@@ -1,0 +1,5 @@
+* we can read token
+* bin hash his argument
+* (protections blok reverse)
+* we can understand the hash.
+* it add the number of the letter to the letter. expect the lat. it start to 0
