@@ -1,0 +1,13 @@
+* there is ile to open "token"
+* and binary , with lot of right
+* with nm we can see the functions: access and open, so it is basicly a race condition exploit
+* we try change arg file after access and before open
+* so we use a symbolic link on file we hve right for acces and change link to file token before open
+
+In vm
+- bash /tmp/race.sh 
+
+In host
+- python listen.py > toto
+
+* we can read toto and find password of flag10 user 
