@@ -2,7 +2,7 @@
 * "token" is first arg
 * so wwe need an other name of token and cp is not permited
 
-- ln -s token /tmp/toto
+- ln -s $HOME/token /tmp/toto
 - ./level08 /tmp/toto
 
 
