@@ -1,0 +1,7 @@
+* exploit /bin/getflag
+
+* change ret of ptrace
+* change ret of getuid to 3014
+
+* it's work for all level
+
